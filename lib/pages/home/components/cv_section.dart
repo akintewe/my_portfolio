@@ -14,7 +14,7 @@ final List<DesignProcess> designProcesses = [
         "A full stack allround designer thay may or may not include a guide for specific creative",
   ),
   DesignProcess(
-    title: "DEVELOP",
+    title: "DEPLOY",
     imagePath: "assets/develop.png",
     subtitle:
         "A full stack allround developer thay may or may not include a guide for specific creative",
@@ -26,7 +26,7 @@ final List<DesignProcess> designProcesses = [
         "A full stack allround writer thay may or may not include a guide for specific creative",
   ),
   DesignProcess(
-    title: "PROMOTE",
+    title: "LOGIC",
     imagePath: "assets/promote.png",
     subtitle:
         "A full stack allround promoter thay may or may not include a guide for specific creative",
@@ -59,7 +59,7 @@ class CvSection extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "BETTER DESIGN,\nBETTER EXPERIENCES",
+                "BETTER DESIGN,\nBETTER EXPERIENCE,\nWORKING FUNCTIONALITIES",
                 style: GoogleFonts.oswald(
                   color: Colors.white,
                   fontWeight: FontWeight.w900,

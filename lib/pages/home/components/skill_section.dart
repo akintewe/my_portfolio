@@ -11,19 +11,19 @@ List<Skill> skills = [
     percentage: 62,
   ),
   Skill(
-    skill: "Javascript",
+    skill: "Flutter",
     percentage: 80,
   ),
   Skill(
-    skill: "PHP",
+    skill: "Firebase",
     percentage: 78,
   ),
   Skill(
-    skill: "Python",
+    skill: "Git",
     percentage: 90,
   ),
   Skill(
-    skill: "GoLang",
+    skill: "C & C++",
     percentage: 40,
   ),
 ];
@@ -55,7 +55,7 @@ class SkillSection extends StatelessWidget {
                 Expanded(
                   flex: ScreenHelper.isMobile(context) ? 0 : 2,
                   child: Image.asset(
-                    "assets/person_small.png",
+                    "assets/new_sola.jpg",
                     width: 300.0,
                   ),
                 ),

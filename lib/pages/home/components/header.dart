@@ -13,11 +13,10 @@ List<HeaderItem> headerItems = [
     title: "HOME",
     onTap: () {},
   ),
-  HeaderItem(title: "MY INTRO", onTap: () {}),
-  HeaderItem(title: "SERVICES", onTap: () {}),
-  HeaderItem(title: "PORTFOLIO", onTap: () {}),
-  HeaderItem(title: "TESTIMONIALS", onTap: () {}),
-  HeaderItem(title: "BLOGS", onTap: () {}),
+  HeaderItem(title: "ABOUT", onTap: () {}),
+  HeaderItem(title: "RESUME", onTap: () {}),
+  HeaderItem(title: "SKILLS & SERVICES", onTap: () {}),
+  HeaderItem(title: "CONTACT", onTap: () {}),
   HeaderItem(
     title: "HIRE ME",
     onTap: () {},
@@ -37,7 +36,7 @@ class HeaderLogo extends StatelessWidget {
             text: TextSpan(
               children: [
                 TextSpan(
-                  text: "M",
+                  text: "N",
                   style: GoogleFonts.oswald(
                     color: Colors.white,
                     fontSize: 32.0,
